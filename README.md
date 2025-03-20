@@ -21,7 +21,7 @@ Este projeto é uma API REST para importação e gerenciamento de produtos da Op
 ### **1 Clonar o Repositório**
 ```sh
 git clone https://github.com/riverofernandes/api-food-laravel.git
-cd open-food-api
+cd api-food-laravel
 ```
 
 ### **2 Instalar Dependências**
@@ -63,6 +63,12 @@ php artisan products:import
 ```
 O Cron foi configurado para rodar todos os dias as 00:00:00
 Configurado no arquivo /routes/console.php
+
+### **9 Rodar os Testes**
+Para garantir que a API está funcionando corretamente, execute os testes:
+```sh
+php artisan test
+```
 
 ## .gitignore
 Incluímos um `.gitignore` para evitar o envio de arquivos sensíveis:
