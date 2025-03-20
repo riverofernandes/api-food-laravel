@@ -9,7 +9,6 @@ Este projeto é uma API REST para importação e gerenciamento de produtos da Op
 - **Banco de Dados**: MySQL
 - **ORM**: Eloquent
 - **Cache**: Redis (para armazenar a última execução do cron)
-- **Documentação**: OpenAPI 3.0 (Swagger)
 - **Docker + Laravel Sail**: Para ambiente isolado
 
 ## Instalação e Uso
